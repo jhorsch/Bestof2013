@@ -1,0 +1,128 @@
+/* GENERAL */
+
+
+@import "library";
+@import "reset";
+
+$light_color: #ccc;
+$dark_color:  #7F7F7F;
+
+
+body{
+
+    background-color: #E5E5E5;
+    font-family: "gill sans";
+
+ }
+
+
+.myheader{
+
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin: 0px auto;
+    border-bottom:  1px solid $dark_color;
+    color: #E80C0C;
+    // position: fixed;
+    // top: 0px;
+    // z-index: 1;
+
+       p{
+        font-size: 18px;
+        margin-top: 5px;
+        color: #E80C0C;
+      }
+}
+
+
+.containerbody{
+     width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    padding-bottom: 20px;
+
+    // -moz-column-count: 3;
+    // -moz-column-gap: 50px;
+    // -webkit-column-count: 3;
+    // -webkit-column-gap: 50px;
+    // column-count: 3;
+    // column-gap: 10px;
+    // width: 50%;
+}
+
+.fav_container{
+
+    width: 18%;
+    max-width: 300px;
+    min-width: 200px;
+    border-radius: 4px;
+    margin: 20px 5px 0px 5px;
+    padding: 0px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    box-shadow: 2px 2px 5px $light_color;
+}
+
+
+.fav_image {
+
+   width: 100%;
+   border-radius: 3px 3px 0 0;
+   border: none;
+   border-bottom: 1px solid $light_color;
+
+}
+
+img:hover {
+  opacity: .75;
+}
+
+
+.fav_info{
+
+    padding: 5px 12px 5px 12px;
+    border-bottom: 1px solid $light_color;
+    text-align: left;
+
+
+}
+
+
+.title{
+    font-size: 24px;
+}
+
+.description{
+    font-size: 14px;
+    margin: 10px 0px 10px 0px;
+}
+
+.profilePic{
+
+ float: left;
+ margin: 10px;
+ position: relative;
+   text-align: left;
+
+}
+
+.author{
+
+    margin: 10px;
+    position: relative;
+    top: 10px;
+      text-align: left;
+
+
+}
+
+footer{
+    background-color: white;
+    text-align:  center;
+    padding: 10px;
+}
